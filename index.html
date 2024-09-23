@@ -1,0 +1,92 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Entre dois mundos</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola de Howgarts,chegou uma carta para mim da escola de magia brasileira CasteloBruxo. Nessa carta,estavam me convidando para fazer parte desta escola,mas para isso teria que seguir algumas pistas.</p>
+            <button class="btn-proximo" data-proximo="1">Howgarts </button>
+            <button class="btn-proximo" data-proximo="2">CasteloBruxo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você escolheu ir para Howgarts, e o chapéu seletor ficou entre duas casas.</p>
+            <button class="btn-proximo" data-proximo="3">Corvinal</button>
+            <button class="btn-proximo" data-proximo="4">Grifinória</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você escolheu ir para CastrloBruxo, lá a Arara-azul ficou indecisa entre duas casas.</p>
+            <button class="btn-proximo" data-proximo="5">Onça</button>
+            <button class="btn-proximo" data-proximo="6">Águia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você foi para a Corvinal é escolheu se tornar um especialista em poções.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a biblioteca</button>
+        </div>
+
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você foi para a Grifinória é escolheu jogar no time de quadribol</p>
+        </div>
+
+
+        <div class="passo" id="passo-5">
+            <p>Você foi para a onça e se escolheu se especializar em magias de combate.</p>
+            <button class="btn-proximo" data-proximo="7">ir para o campo de treinamento</button>
+        </div>
+
+
+        <div class="passo" id="passo-6">
+            <p>Você foi para a Àguia e escolheu se especializar em Magias de proteção e estratégias de comabte</p>
+            <button class="btn-proximo" data-proximo="8">ir para a sala de poções</button>
+        </div>
+
+
+        <div class="passo" id="passo-7">
+            <p>Na biblioteca você se encontra com Hermione e Gina, e tem que escolher com quem irá estudar.</p>
+            <button class="btn-proximo" data-proximo="9">Ir com a Hermione</button>
+            <button class="btn-proximo" data-proximo="10">ir com a Gina</button>
+        </div>
+
+
+        <div class="passo" id="passo-8">
+            <p>No campo de quadribol,você treina com Harry e os outros contra a Sonserina </p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a biblioteca</button>
+        </div>
+
+
+        <div class="passo" id="passo-9">
+            <p>Você estuda com a Hermione e descobre o seu Patrono que é um cervo branco</p>
+            <button class="btn-proximo" data-proximo="11">Ir com a hermione encontrar os meninos</button>
+        </div>
+
+
+        <div class="passo" id="passo-10">
+            <p>você estuda com a gina e consegue fazer um Expelliarmus e invocar seu patrono que é uma coruja.</p>
+            <button class="btn-proximo" data-proximo="12">Vocês foram comprar feijôes mágicos para celebrar seu novo feitiço</button>
+        </div>
+
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Vocês se tornam melhores amigas e vão se encontrar com os meninos depois do treino de quadribol</p>
+        </div>
+
+
+        <div class="passo" id="passo-12">
+            <p>Vocês compram os feijões e dicedem ir ver Hermione e os meninos.</p>
+            <button class="btn-proximo" data-proximo="11">Ir com a Hermione e os meninos.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
